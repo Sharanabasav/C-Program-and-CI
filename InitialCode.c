@@ -1,7 +1,23 @@
 #include <stdio.h>
-int main() {
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+#define max(x,y) ((x)>(y)?(x):(y))
+
 int main() 
 {
-   // printf() displays the string inside quotation
-   printf("Hello, World!");
+
+    int n = 2;
+    int i, j;
+
+    for (i = 0; i < 2 * n - 1; ++i)
+    {
+        for (j = 0; j < 2 * n - 1; ++j)
+        {
+            printf("%d ", max(abs(n-i-1)+1, abs(n-j-1)+1));
+        }
+        printf("\n");
+    }   
+    return 0;
 }
