@@ -9,9 +9,6 @@ install:
   - echo  "Reached Install Section"
 
 script:
-  - echo "Reached Script Section"
-  - gcc   	InitialCode.c -o output
-  - ./output
   
     #added section for cunit testing
   - echo "Reached Script Section - cunit_Sharan"
