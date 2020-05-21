@@ -53,6 +53,15 @@ int Validate_Pwd(char a[])
     return 1;
 }
 
+
+int stringlength(char s[])
+{
+ int i;
+  for (i = 0; s[i] != '\0'; ++i);
+  return i;
+}
+
+
 /* Cunit testcases to validate the Pwd */
 void ValidatePwd_CUnitTest()
 {
