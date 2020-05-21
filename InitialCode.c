@@ -2,6 +2,7 @@
 #include <CUnit/Basic.h>
 
 int Validate_Pwd(char[]);
+int stringlength(char[]);
 
 /* Validate the Pwd */
 int Validate_Pwd(char a[])
