@@ -14,7 +14,7 @@ script:
   - ./output
   
     #added section for cunit testing
-  - echo "Reached Script Section - cunit_reggie"
-  - gcc   cunit_reggie.c -o cunit_reggie -lcunit
-  - ./cunit_reggie
-  - size cunit_reggie
+  - echo "Reached Script Section - cunit_Sharan"
+  - gcc   InitialCode.c -o cunit_Sharan -lcunit
+  - ./cunit_Sharan
+  - size cunit_Sharan
