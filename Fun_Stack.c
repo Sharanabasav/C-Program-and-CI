@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+double multiplyByTwo (double);
+
 double multiplyByTwo (double input) {
   double twice = input * 2.0;
   return twice;
