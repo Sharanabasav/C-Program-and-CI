@@ -9,7 +9,7 @@ double *multiplyByTwo (double *input) {
   return twice;
 }
 
-int main (int argc, char *argv[])
+int main ()
 {
   int *age = malloc(sizeof(int));
   *age = 30;
