@@ -8,8 +8,7 @@ int subtract( int, int);
 int multiply( int, int)
 void doMath( int (*fn)(int a, int b), int a, int b )
 
-int
-swap_ints(int *first_number, int *second_number)
+int swap_ints(int *first_number, int *second_number)
 {
   int temp;
 
