@@ -9,6 +9,9 @@ install:
   - echo  "Reached Install Section"
 
 script:
+  - echo "Reached Script Section"
+  - gcc   Fun_Stack.c Fun_Wit_Heap.c Fun_Wit_Ptr.c  Student.c -o output
+  - ./output
   
     #added section for cunit testing
   - echo "Reached Script Section - cunit_Sharan"
