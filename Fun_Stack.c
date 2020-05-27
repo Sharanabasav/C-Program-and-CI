@@ -7,7 +7,7 @@ double multiplyByTwo_No_ptr (double input) {
   return twice;
 }
 
-int main (int argc, char *argv[])
+int main ()
 {
   int age = 30;
   double salary = 12345.67;
