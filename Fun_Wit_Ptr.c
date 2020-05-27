@@ -49,13 +49,13 @@ int main(void) {
   doMath(subtract, a, b);
   doMath(multiply, a, b);
   
-  int a = 4, b = 7;
+  int c = 4, d = 7;
 
-  printf("pre-swap values are: a == %d, b == %d\n", a, b)
+  printf("pre-swap values are: c == %d, d == %d\n", c, d);
 
-  swap_ints(&a, &b);
+  swap_ints(&c, &d);
 
-  printf("post-swap values are: a == %d, b == %d\n", a, b)
+  printf("post-swap values are: c == %d, d == %d\n", c, d);
 
   return 0;
 }
