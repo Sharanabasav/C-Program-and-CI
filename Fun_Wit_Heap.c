@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+double *multiplyByTwo (double *input);
+
 double *multiplyByTwo (double *input) {
   double *twice = malloc(sizeof(double));
   *twice = *input * 2.0;
