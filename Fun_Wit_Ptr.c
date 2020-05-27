@@ -3,6 +3,10 @@
 #include <stdio.h>
 
 int swap_ints(int *first_number, int *second_number);
+int add(int, int);
+int subtract( int, int);
+int multiply( int, int)
+void doMath( int (*fn)(int a, int b), int a, int b )
 
 int
 swap_ints(int *first_number, int *second_number)
@@ -18,9 +22,7 @@ swap_ints(int *first_number, int *second_number)
 }
 
 
-Pointer to Function.
-
-#include <stdio.h>
+/* Pointer to Function. */
 
 int add( int a, int b ) {
   return a + b;
