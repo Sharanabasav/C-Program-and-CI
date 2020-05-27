@@ -5,8 +5,8 @@
 int swap_ints(int *first_number, int *second_number);
 int add(int, int);
 int subtract( int, int);
-int multiply( int, int)
-void doMath( int (*fn)(int a, int b), int a, int b )
+int multiply( int, int);
+void doMath( int (*fn)(int, int), int, int);
 
 int swap_ints(int *first_number, int *second_number)
 {
